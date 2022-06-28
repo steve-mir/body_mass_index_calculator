@@ -6,7 +6,7 @@ class RightBar extends StatelessWidget {
   final double barWidth;
 
 //const LeftBar({Key key, @required this.barWidth}) : super(key: key);
-  const RightBar({required Key key, required this.barWidth}) : super(key: key);
+  const RightBar({required this.barWidth});
 
   @override
   Widget build(BuildContext context) {
